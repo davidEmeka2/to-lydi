@@ -68,7 +68,7 @@ function Section6({bgMusic}:stateProps) {
             <div className="sec6Div1">
                  <motion.div className='section1Img' whileInView={{rotate:-10}}> <Image src={"/photos/sec6Hand1.jpeg"} height={250} width={250} alt='sectionPhotos' /> </motion.div>
 
-                 <motion.div  className='section1Img' whileInView={{rotate:10}}> <Image src={"/photos/sec6Hand2.jpeg"} height={250} width={250} alt='sectionPhotos' /> </motion.div>
+                 <motion.div  className='section1Img' whileInView={{rotate:10}}> <Image src={"/photos/sec6hand.png"} height={250} width={250} alt='sectionPhotos' /> </motion.div>
             </div>
 
 

@@ -102,7 +102,7 @@ function Loading({setSectionsOpen, bgMusic}:stateProps) {
 
     <Image src={"/gifs/singleFlower.gif"} height={200} width={200} alt="love Design" unoptimized className="SingleFlower" />
 
-    <div onClick={scaleFunc}> <Image src={"/svgs/letter.svg"} height={700} width={700} alt="letter Image"  /> </div>
+    <div onClick={scaleFunc}> <Image src={"/letter.png"} height={700} width={700} alt="letter Image"  /> </div>
 
     <motion.div className="heartAlpha" initial={{scale:0}} animate={{scale:scaleHeart, transition:{duration:2}}} ><Image src={"/svgs/heart.svg"} height={3000} width={3000} alt="letter Image" className="heartSvg" /></motion.div>
 
