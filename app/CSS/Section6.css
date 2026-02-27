@@ -1,0 +1,101 @@
+.section6{
+    height: 100vh;
+
+    width: 100%;
+    position: relative;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.section6Scroller{
+    height: 600vh;
+    width: 100%;
+
+}
+
+.sec6_1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* border: 2px solid green; */
+}
+
+.sec6_1Txt{
+    width: 80%;
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-size: 10vw;
+    color: white;
+}
+
+
+.sec6_2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.sec6Div1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* border: 2px solid blue; */
+   
+  
+}
+
+.sec6Div2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* border: 2px solid blue; */
+    
+}
+
+.sec6_Txt{
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+
+
+.section6FinalTxt{
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 7vw;
+    text-align: center;
+    width: 80%;
+}
+
+
+
+
+
+@media (max-width:450px) {
+    .sec6Div2{
+        align-items: flex-start;
+        
+    }
+    .sec6_Txt{
+        font-size: 20px;
+
+    }
+
+    .section6FinalTxt{
+        font-size: 30px;
+    }
+}

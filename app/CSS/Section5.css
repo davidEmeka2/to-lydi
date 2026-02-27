@@ -1,0 +1,156 @@
+.section5{
+    height: 110vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.section5::before{
+    position: absolute;
+    top: 0;
+    background-color: white;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, pink, transparent);
+
+
+}
+
+.whiteFlower{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.Section5Txt{
+    position: absolute;
+    white-space: nowrap;
+    font-family: "Poiret One", sans-serif;
+    /* border: 2px solid black; */
+    width: 100%;
+    color: pink;
+    top: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: left;
+
+}
+
+
+
+
+
+.Section5Txt span{
+    font-size: 5vw;
+    /* border: 2px solid black; */
+}
+
+
+
+@media (max-width:450px) {
+
+
+
+    .Section5Txt span{
+        font-size: 30px;
+
+
+    }
+    
+} 
+
+.section5Img{
+    overflow: hidden;
+    /* border: 2px solid black; */
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    position: relative;
+}
+
+.sadAnim{
+    position: absolute;
+    left: 10%;
+}
+
+.happyAnim{
+    position: absolute;
+    right: 10%;
+}
+
+
+@media (max-width:860px) {
+    .sadAnim{
+        display: none;
+    }
+
+    .happyAnim{
+        display: none;
+    }
+
+}
+
+.section5Options{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    z-index: 20;
+
+}
+
+
+
+.yesButton{
+    width: 150px;
+    height: 80px;
+    background-color: pink;
+    border-radius: 50px;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+.noButton{
+    width: 150px;
+    height: 80px;
+    background-color: #00000071;
+    border-radius: 50px;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yesText{
+    position: absolute;
+    top: -60%;
+    color:  black;
+    white-space: nowrap;
+    font-size: 20px;
+    
+}
