@@ -1,0 +1,84 @@
+
+
+#loading{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.loading{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingBarAlpha{
+    width: 80%;
+    height: 100px;
+    border: 2px solid pink;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.loadingProgress{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-color: pink;
+}
+
+.groupOfLove1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.groupOfLove2{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+/* //////////////////////// letter Sec ///////////////////////// */
+
+.loadingLetter{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    border: 2px solid pink;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 10;
+    background-color: pink;
+}
+
+.birdFlying{
+    position: absolute;
+    top: 10px;
+    right: -5px;
+}
+
+.SingleFlower{
+    position: absolute;
+    bottom: 10px;
+    left: 10px; 
+}
+
+.heartSvg{
+
+}
+
+.heartAlpha{
+    position: absolute;
+    /* border: 1px solid black; */
+
+
+}

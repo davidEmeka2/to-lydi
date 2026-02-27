@@ -1,0 +1,80 @@
+.section2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: pink;
+    overflow: hidden;
+    position: relative;
+}
+
+.cherryTree{
+    position: absolute;
+    right: -5px;
+    top: 10px;
+}
+
+.section2Div1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* border: 2px solid black; */
+     padding: 3%;
+}
+
+.section2Txt{
+    font-family: "Poiret One", sans-serif;
+    font-size: 5vw;
+    width: 90%;
+    color: white;
+    text-align: center;
+
+}
+
+
+.section2Div2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+
+
+}
+
+.section2Img{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media (max-width:850px) {
+    .section2{
+        height: 120vh;
+        flex-direction: column-reverse;
+    }
+
+    .section2Div1{
+        height: 30%;
+        width: 100%;
+        align-items: flex-end;
+
+    }
+
+    .section2Div2{
+        height: 70%;
+        width: 100%;
+        /* border: 2px solid black; */
+
+    }
+
+}
+
+@media (max-width:450px) {
+    .section2Txt{
+        font-size: 30px;
+    }
+    
+}
